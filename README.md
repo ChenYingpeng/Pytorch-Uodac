@@ -52,6 +52,7 @@ python3 tools/data_process/generate_test_json.py --test-image-dir ../underwater/
 ./tools/dist_train.sh configs/underwater/optics/xxxx.py 2
 ```
 ### Submit
+download model [link](https://pan.baidu.com/s/1JSVuycVtYvsHN3i0g_KZDg) passwd : rf0n
 ```shell
 ./tools/dist_submit.sh configs/underwater/optics/xxxx.py ../underwater/optics/output/xxxx/latest.pth 2 --format_only
 ```
